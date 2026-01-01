@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website dengan ReactBits
 
-## Getting Started
+Portfolio website modern yang dibangun menggunakan Next.js dan ReactBits - library komponen animasi React yang powerful.
 
-First, run the development server:
+## 🚀 Fitur
 
+- ✨ Animasi interaktif menggunakan ReactBits
+- 🎨 Desain modern dan responsif
+- 📱 Mobile-friendly
+- ⚡ Performa optimal dengan Next.js
+- 🎯 Smooth scrolling navigation
+- 💫 Efek hover dan click yang menarik
+
+## 🛠️ Teknologi
+
+- **Next.js 16** - React framework
+- **ReactBits** - Animation components library
+- **Tailwind CSS** - Styling
+- **TypeScript** - Type safety
+- **GSAP** - Animation engine
+- **Framer Motion** - Motion library
+
+## 📦 Instalasi
+
+1. Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Jalankan development server:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Buka [http://localhost:3000](http://localhost:3000) di browser
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Struktur Proyek
 
-## Learn More
+```
+app/
+├── components/
+│   ├── Hero.tsx          # Hero section dengan animasi
+│   ├── About.tsx         # Tentang saya
+│   ├── Skills.tsx        # Keahlian dengan progress bars
+│   ├── Projects.tsx      # Portfolio projects
+│   ├── Contact.tsx       # Form kontak
+│   ├── Navbar.tsx        # Navigation bar
+│   └── Footer.tsx        # Footer
+├── page.tsx              # Halaman utama
+├── layout.tsx            # Root layout
+└── globals.css           # Global styles
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Komponen ReactBits yang Digunakan
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Bounce** - Animasi bounce pada hero section
+- **FadeContent** - Fade in animations
+- **GradientText** - Text dengan gradient animasi
+- **ClickSpark** - Spark effect pada button click
+- **AnimatedContent** - Scroll-triggered animations
+- **StarBorder** - Animated star borders
+- **GlareHover** - Hover effects dengan glare
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✏️ Kustomisasi
 
-## Deploy on Vercel
+Anda dapat dengan mudah mengkustomisasi:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Konten**: Edit file di `app/components/` untuk mengubah teks dan informasi
+2. **Warna**: Ubah warna di Tailwind classes atau di komponen ReactBits
+3. **Proyek**: Tambah/edit proyek di `app/components/Projects.tsx`
+4. **Skills**: Edit daftar skills di `app/components/Skills.tsx`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Deploy
+
+Deploy ke Vercel dengan mudah:
+
+```bash
+npm run build
+```
+
+Atau push ke GitHub dan hubungkan dengan Vercel untuk automatic deployment.
+
+## 📚 Dokumentasi
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [ReactBits Documentation](https://reactbits.dev)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+
+## 📄 License
+
+MIT License
