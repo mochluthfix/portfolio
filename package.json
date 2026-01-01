@@ -8,6 +8,11 @@
     "start": "next start",
     "lint": "eslint"
   },
+  "overrides": {
+    "@appletosolutions/reactbits": {
+      "three": "$three"
+    }
+  },
   "dependencies": {
     "@appletosolutions/reactbits": "^1.0.3",
     "@chakra-ui/react": "^3.30.0",
