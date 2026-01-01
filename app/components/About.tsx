@@ -12,10 +12,9 @@ const timelineData: TimelineEntry[] = [
         To independently cover tuition and living expenses, I simultaneously launched and managed a small-scale business in the Food & Beverage (F&B) sector
         </p>
         <div className="flex gap-2 flex-wrap">
-          <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">startup template</span>
-          <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">startup template</span>
-          <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">startup template</span>
-          <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">startup template</span>
+          <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">bachelor degrees</span>
+          <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">computer science</span>
+          <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">business</span>
         </div>
       </div>
     ),
@@ -29,10 +28,10 @@ const timelineData: TimelineEntry[] = [
         This experience strengthened my expertise in e-commerce, digital marketing, customer relationship management, and financial operations while continuing my studies.
         </p>
         <div className="flex gap-2 flex-wrap">
-          <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">hero template</span>
-          <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">feature template</span>
-          <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">bento template</span>
-          <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">cards template</span>
+          <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">pandemic</span>
+          <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">transition</span>
+          <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">earn money</span>
+          <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">digital currency</span>
         </div>
       </div>
     ),
@@ -47,10 +46,9 @@ const timelineData: TimelineEntry[] = [
         </p>
         
         <div className="flex gap-2 flex-wrap mt-4">
-          <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">hero template</span>
-          <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">feature template</span>
-          <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">bento template</span>
-          <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">cards template</span>
+          <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">graduated</span>
+          <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">tech industry</span>
+          <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-sm">professional journey</span>
         </div>
       </div>
     ),
